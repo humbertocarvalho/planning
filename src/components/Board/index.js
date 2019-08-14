@@ -6,11 +6,11 @@ import { Container } from './styles';
 export default function Board() {
   return (
     <Container>
-      <Player name='Humberto' />
-      <Player name='Matheus' />
-      <Player name='Nielsen' />
-      <Player name='Marcelo' />
-      <Player name='Luis' />
+      <Player name='Humberto' hours={5} />
+      <Player name='Matheus' hours={10} />
+      <Player name='Nielsen' hours={15} />
+      <Player name='Marcelo' hours={20} />
+      <Player name='Luis' hours={5} />
     </Container>
   );
 }
