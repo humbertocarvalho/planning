@@ -14,7 +14,6 @@ export const Container = styled.div`
 
 export const Card = styled.div`
   img {
-    padding-top: 50px;
     width: 300px;
     height: 300px;
     margin: auto;
@@ -22,10 +21,10 @@ export const Card = styled.div`
 
   p {
     font-size: 50px;
-    padding-top: 250px;
+    align-self: flex-end;
   }
 
   h1 {
-    padding-top: 150px;
+    align-self: flex-end;
   }
 `;
